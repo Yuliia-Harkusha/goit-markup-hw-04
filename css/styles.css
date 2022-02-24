@@ -416,6 +416,10 @@ img {
 
 /* Футер */
 
+.footer > .container {
+  display: flex;
+}
+
 .footer .adress,
 .footer .link {
   display: block;
@@ -462,6 +466,51 @@ img {
 
 .footer .studio {
   color: var(--white-text-color);
+}
+.footer-logo-block {
+  margin-right: 70px;
+}
+
+.footer-auth {
+  width: 206px;
+  height: 80px;
+  /* margin-bottom: 100px; */
+}
+
+.footer-join {
+  margin-bottom: 20px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-item:hover,
+.footer-social-item:focus {
+  background-color: var(--accent-text-color);
+}
+
+.footer-icon {
+  fill: var(--white-text-color);
 }
 
 /* Страница Портфолио */
