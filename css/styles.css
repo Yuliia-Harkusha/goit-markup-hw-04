@@ -480,11 +480,14 @@ img {
   margin-right: -10px;
 }
 
+.footer-social {
+  margin-right: 10px;
+}
+
 .footer-social-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
